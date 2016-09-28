@@ -1,0 +1,88 @@
+body{
+    
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.img-thumbnail{
+    height:70px;
+}
+
+.section-title{
+    
+    height: 50px;
+    margin-bottom:15px;
+    font-size: 25px;
+    line-height: 2.5;
+    background-color: #643DA7;
+    color: white;
+}
+
+.channel{
+    
+    height: 80px;
+    margin-bottom: 5px;
+    background-color: #433f4a;
+    color: white;
+    padding-top:5px;
+    padding-bottom:5px;
+    line-height: 3.5;
+    font-size:20px;
+}
+
+
+.section{
+    
+    margin-top: 20px;
+    
+}
+
+.overlay{
+    background-color: rgba(245,245,245,0.7);
+    /* Fallback for web browsers that doesn't support RGBa */
+
+    background: rgb(245, 245, 245);
+
+    /* RGBa with 0.6 opacity */
+    
+    background: rgba(245, 245, 245, 0.7);
+    
+    /* For IE 5.5 - 7*/
+    
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    
+    /* For IE 8*/
+    
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+.arrow-down{}
+.arrow-down:after,
+.arrow-down::after {
+    margin-top:-30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50%;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: solid 30px #643DA7;
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;
+}
+
+.arrow-down-mobile{}
+.arrow-down-mobile:after,
+.arrow-down-mobile::after {
+    margin-top: -5px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50%;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: solid 30px #643DA7;
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;
+}
